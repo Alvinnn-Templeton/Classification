@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Subscription Form</title>
+<style type="text/css">
+	h1{
+		color: white;
+		font-size: 75px;
+		 font-style: italic;
+		 font-weight: bold;
+	}
+	fieldset{
+			width: 700px;
+			height: 530px;
+	}
+	legend{
+		font-size: 50px;
+		font-weight: bold;
+	}
+	form{
+		margin-right: 100px;
+	}
+	select{
+		height: 50px;
+		width: 200px;
+		font-size: 30px;
+	}
+	option{
+		font-size: 30px;
+	}
+	span{
+		color: red; 
+	}
+	input[type="text"], input[type="tel"], input[type="number"]{
+		height: 30px;
+		color: red;
+
+	}
+	input{
+		font-size: 30px;
+	background-color: white;
+	}
+	label{
+		font-size: 30px;
+	font-style: italic;
+		 font-weight: bold; 
+		 margin-left: 20px;
+	}
+	#two{
+		background-color: purple;
+	}
+#three{
+	background-color: orange;
+	width:500px;
+	color: white;
+	font-family: Comic Sans MS;
+font-weight: bold;
+font-style: italic;
+}
+#four{
+	text-decoration: none;
+	border: 20px dashed black;
+			font-size: 50px;
+			color: blue;
+}
+
+</style>
+</head>
+<body bgcolor="purple">
+<center><h1> For Updation on new pages:</h1><br><br></center>
+<form>
+	<fieldset>
+		<legend>Subscription</legend>
+		<label>First Name<span>*</span></label>
+	<input type="text" name="Name" placeholder="Jhonny" required="required"><br>
+	<label>Last Name<span>*</span></label>
+	<input type="text" name="Name" placeholder="shan" required="required"><br>
+	<label>Email<span>*</span></label>
+<input type="email" name="Email Adress" placeholder="something@gmail.com" required="required"><br>
+<label>Address<span>*</span></label>
+	<input type="text" name="Address"><br>
+	<label>Country</label>
+	<input type="text" name="Country"><br>
+	<label>City</label>
+	<input type="text" name="City"><br>
+	<label>Subscription:</label><br>
+	<label>Monthly Payment: $50</label>
+	<input type="radio" value="$50" name="Dollars"><br>
+	<label>Every 2 Weeks: $25</label>
+	<input type="radio" value="$25" name="Dollars"><br>
+	<label>Weekly: $15</label>
+	<input type="radio" value="$10" name="Dollars"><br><br>
+	<center><input type="reset" value="Reset" id="two"><br><br>
+<input type="submit" value="Submit" id="three"></center>
+</fieldset>
+</form><br><br>
+<a href="Home.html" id="four">Home Page</a>
+</body>
